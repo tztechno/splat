@@ -6,21 +6,13 @@ My splat data are saved [here](https://huggingface.co/datasets/stpete2/splat).
 
 Modified 3D gaussian splat viewer is available [here](https://splat-three.vercel.app/).
 
+---
+
 **[from photos w/camera info]**
 
 https://splat-three.vercel.app/?url=fountain.splat#[-0.64,0.76,-0.04,0,0.09,0.14,0.98,0,0.76,0.63,-0.16,0,0.34,-1.87,7.57,1]
 
-https://splat-three.vercel.app/?url=fountain6000.splat#[-0.64,0.76,-0.04,0,0.09,0.14,0.98,0,0.76,0.63,-0.16,0,0.34,-1.87,7.57,1]
-
-https://splat-three.vercel.app/?url=fountain6000dgt10.splat#[-0.64,0.76,-0.04,0,0.09,0.14,0.98,0,0.76,0.63,-0.16,0,0.34,-1.87,7.57,1]
-
-https://splat-three.vercel.app/?url=fountain6000dgt10.splat#[-0.64,0.76,-0.04,0,0.09,0.14,0.98,0,0.76,0.63,-0.16,0,0.34,-1.87,7.57,1]
-
-https://splat-three.vercel.app/?url=fountain6000dgt06.splat#[-0.64,0.76,-0.04,0,0.09,0.14,0.98,0,0.76,0.63,-0.16,0,0.34,-1.87,7.57,1]
-
 https://splat-three.vercel.app/?url=fountain30000.splat#[-0.64,0.76,-0.04,0,0.09,0.14,0.98,0,0.76,0.63,-0.16,0,0.34,-1.87,7.57,1]
-
-https://splat-three.vercel.app/?url=fountain100000.splat#[-0.64,0.76,-0.04,0,0.09,0.14,0.98,0,0.76,0.63,-0.16,0,0.34,-1.87,7.57,1]
 
 https://splat-three.vercel.app/?url=bike.splat
 
@@ -38,9 +30,13 @@ https://splat-three.vercel.app/?url=taj_mahal.splat
 
 https://splat-three.vercel.app/?url=cyprus.splat
 
-**[from photos wo/camera info]**
+**[from photos/frames wo/camera info]**
 
 https://splat-three.vercel.app/?url=fountain_photo.splat (default)
+
+https://splat-three.vercel.app/?url=around_car_frame.splat
+
+https://splat-three.vercel.app/?url=church_photo.splat
 
 **[from movie]**
 

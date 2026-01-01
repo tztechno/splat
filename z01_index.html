@@ -192,6 +192,16 @@
 	<meta name="twitter:title" content="3D Gaussian Splatting Viewer">
 	<meta name="twitter:image" content="https://raw.githubusercontent.com/tztechno/splat/main/z01_soba.png">
 
+  <script>
+    // URLに ?url= が無ければ付与して正規URLへ
+    if (!location.search.includes("url=")) {
+      location.replace(
+        location.pathname + "?url=toshikoshi_soba.splat"
+      );
+    }
+  </script>
+
+		
 		
 	</head>
 	<body>

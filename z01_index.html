@@ -192,15 +192,24 @@
 	<meta name="twitter:title" content="3D Gaussian Splatting Viewer">
 	<meta name="twitter:image" content="https://raw.githubusercontent.com/tztechno/splat/main/z01_soba.png">
 
-  <script>
-    // URLに ?url= が無ければ付与して正規URLへ
-    if (!location.search.includes("url=")) {
-      location.replace(
-        location.pathname + "?url=toshikoshi_soba.splat#[0.93,-0.04,-0.37,0,-0.08,0.94,-0.32,0,0.36,0.33,0.88,0,-1.78,-0.65,-0.1,1]"
-      );
-    }
-  </script>
-
+	<script>
+	(function () {
+	  // 1) splat URL を強制的に付与（既にやっているはず）
+	  if (!location.search.includes("url=")) {
+	    location.replace(
+	      location.pathname +
+	      "?url=toshikoshi_soba.splat" +
+	      location.hash
+	    );
+	    return; // replace 後は終了
+	  }
+	
+	  // 2) camera angle を「初回のみ」設定
+	  if (!location.hash) {
+	    location.hash = "#[0.93,-0.04,-0.37,0,-0.08,0.94,-0.32,0,0.36,0.33,0.88,0,-1.78,-0.65,-0.1,1]";
+	  }
+	})();
+	</script>
 		
 		
 	</head>
